@@ -1,11 +1,11 @@
 use std::time::{Duration, Instant};
-use std::f64;
+use std::f32;
 
 
 
 fn main() {
   
-  let f = f64::consts::FRAC_PI_4;
+  let f = f32::consts::FRAC_PI_4;
   let start = Instant::now();
   let mut a  = 0;
   for x in 0..55000000 {
